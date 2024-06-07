@@ -45,7 +45,7 @@ public class ListController : Controller
     public IActionResult Jobs(string column, string value)
     {
         
-        return View();
+        return View("hello");
     }
 }
 
