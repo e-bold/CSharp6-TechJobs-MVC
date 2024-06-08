@@ -23,6 +23,7 @@
     @* Alternate table option: *@
     @foreach (var job in ViewBag.jobs)
     {
+        <hr />
         <table class="job-listing">
             <tr>
                 <th>ID</th>
@@ -48,6 +49,7 @@
                 <th>Core Competency</th>
                 <td>@job.CoreCompetency</td>
             </tr>
+
         </table>
     }
 
